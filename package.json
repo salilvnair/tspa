@@ -1,0 +1,17 @@
+{
+  "name": "@salilvnair/tspa",
+  "version": "1.0.0",
+  "description": "Typescript Persistent Api Repository",
+  "main": "main.js",
+  "scripts": {
+    "build": "tsc -w",
+    "start": "node ./dist/tspa/test/main.js"
+  },
+  "author": "Salil V Nair",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^11.9.5",
+    "nedb": "^1.8.0",
+    "reflect-metadata": "^0.1.13"
+  }
+}
