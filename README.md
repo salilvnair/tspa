@@ -51,7 +51,7 @@ export class EmployeeService  {
 }
 ```
 
-> _when the above code executes a folder named tspa-data will be created at the root path._
+> _when the above code executes a folder named **tspa-data** will be created at the root path._
 
 > _which will have a subfolder named **nedb** which in turn will have two subfolders named **config** and **database**._
 
