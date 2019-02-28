@@ -1,11 +1,21 @@
 {
   "name": "@salilvnair/tspa",
-  "version": "1.0.0",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salilvnair/tspa.git"
+  },
+  "homepage": "https://github.com/salilvnair/tspa",
+  "keywords": [
+    "nedb",
+    "persistent api"
+  ],
   "description": "Typescript Persistent Api Repository",
-  "main": "main.js",
+  "main": "tspa/public_api.js",
+  "types": "tspa/public_api.d.ts",
   "scripts": {
-    "build": "tsc -w",
-    "start": "node ./dist/tspa/test/main.js"
+    "build": "tsc",
+    "test": "node ./tspa/test/test.js"
   },
   "author": "Salil V Nair",
   "license": "MIT",
@@ -13,5 +23,8 @@
     "@types/node": "^11.9.5",
     "nedb": "^1.8.0",
     "reflect-metadata": "^0.1.13"
-  }
+  },
+  "files": [
+    "tspa/**/*"
+  ]
 }

@@ -1,10 +1,8 @@
 {
     "compileOnSave": false,
     "compilerOptions": {
-      "baseUrl": "./",
-      "outDir": "./dist/tspa",
-      "sourceMap": true,
-      "declaration": false,
+      "outDir": "./tspa",
+      "declaration": true,
       "module": "commonjs",
       "moduleResolution": "node",
       "emitDecoratorMetadata": true,
@@ -16,14 +14,8 @@
       "lib": [
         "es2018",
         "dom"
-      ],
-      "paths": {
-        "ngpa-repository": [
-          "dist/tspa"
-        ],
-        "ngpa-repository/*": [
-          "dist/tspa/*"
-        ]
-      }
-    }
+      ]
+    },
+    "include": ["src"],
+    "exclude": ["node_modules", "**/__tests__/*"]
   }
