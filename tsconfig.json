@@ -1,7 +1,7 @@
 {
     "compileOnSave": false,
     "compilerOptions": {
-      "outDir": "./dist",
+      "outDir": "./public",
       "declaration": true,
       "module": "commonjs",
       "moduleResolution": "node",

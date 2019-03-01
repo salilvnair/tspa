@@ -1,6 +1,6 @@
 {
   "name": "@salilvnair/tspa",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/salilvnair/tspa.git"
@@ -11,11 +11,11 @@
     "persistent api"
   ],
   "description": "Typescript Persistent Api Repository",
-  "main": "dist/public_api.js",
-  "types": "dist/public_api.d.ts",
+  "main": "public/public_api.js",
+  "types": "public/public_api.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "node ./dist/test/main.js"
+    "test": "node ./public/test/main.js"
   },
   "author": "Salil V Nair",
   "license": "MIT",
@@ -25,6 +25,6 @@
     "reflect-metadata": "^0.1.13"
   },
   "files": [
-    "dist/**/*"
+    "public/**/*"
   ]
 }
